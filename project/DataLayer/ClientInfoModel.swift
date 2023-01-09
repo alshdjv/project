@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct ClientInfo {
+    var userData: String?
+    var userInfoDescription: String?
+    var canCopy: Bool = false
+}

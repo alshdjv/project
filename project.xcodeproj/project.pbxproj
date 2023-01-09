@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		63624ED2296BC47E002DB470 /* ClientInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63624ED1296BC47E002DB470 /* ClientInfoModel.swift */; };
+		63624ED4296BC4E5002DB470 /* TitleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63624ED3296BC4E5002DB470 /* TitleModel.swift */; };
+		63624ED6296BC57B002DB470 /* ClientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63624ED5296BC57B002DB470 /* ClientTableViewCell.swift */; };
+		63624ED9296BC7D1002DB470 /* TitleModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63624ED8296BC7D1002DB470 /* TitleModelMapper.swift */; };
 		6364F04929685D3900691690 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364F04829685D3900691690 /* AppDelegate.swift */; };
 		6364F04B29685D3900691690 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364F04A29685D3900691690 /* SceneDelegate.swift */; };
 		6364F04D29685D3900691690 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364F04C29685D3900691690 /* ViewController.swift */; };
@@ -19,6 +22,9 @@
 
 /* Begin PBXFileReference section */
 		63624ED1296BC47E002DB470 /* ClientInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientInfoModel.swift; sourceTree = "<group>"; };
+		63624ED3296BC4E5002DB470 /* TitleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModel.swift; sourceTree = "<group>"; };
+		63624ED5296BC57B002DB470 /* ClientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientTableViewCell.swift; sourceTree = "<group>"; };
+		63624ED8296BC7D1002DB470 /* TitleModelMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModelMapper.swift; sourceTree = "<group>"; };
 		6364F04529685D3900691690 /* project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6364F04829685D3900691690 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6364F04A29685D3900691690 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				63624ECF296BC442002DB470 /* Components */,
+				63624ED7296BC7A7002DB470 /* Extensions */,
 				63624ECD296BC415002DB470 /* Scenes */,
 			);
 			path = PresentationLayer;
@@ -81,6 +88,7 @@
 		63624ECF296BC442002DB470 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				63624ED5296BC57B002DB470 /* ClientTableViewCell.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -89,8 +97,17 @@
 			isa = PBXGroup;
 			children = (
 				63624ED1296BC47E002DB470 /* ClientInfoModel.swift */,
+				63624ED3296BC4E5002DB470 /* TitleModel.swift */,
 			);
 			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		63624ED7296BC7A7002DB470 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				63624ED8296BC7D1002DB470 /* TitleModelMapper.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		6364F03C29685D3900691690 = {
@@ -113,8 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				63624ED0296BC45C002DB470 /* DataLayer */,
-				63624ECE296BC430002DB470 /* PresentationLayer */,
 				63624ECB296BC374002DB470 /* AppLayer */,
+				63624ECE296BC430002DB470 /* PresentationLayer */,
 				63624ECC296BC383002DB470 /* Resources */,
 			);
 			path = project;
@@ -197,9 +214,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63624ED4296BC4E5002DB470 /* TitleModel.swift in Sources */,
 				63624ED2296BC47E002DB470 /* ClientInfoModel.swift in Sources */,
+				63624ED6296BC57B002DB470 /* ClientTableViewCell.swift in Sources */,
 				6364F04D29685D3900691690 /* ViewController.swift in Sources */,
 				6364F04929685D3900691690 /* AppDelegate.swift in Sources */,
+				63624ED9296BC7D1002DB470 /* TitleModelMapper.swift in Sources */,
 				6364F04B29685D3900691690 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
