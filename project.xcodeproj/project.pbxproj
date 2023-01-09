@@ -11,6 +11,7 @@
 		63624ED4296BC4E5002DB470 /* TitleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63624ED3296BC4E5002DB470 /* TitleModel.swift */; };
 		63624ED6296BC57B002DB470 /* ClientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63624ED5296BC57B002DB470 /* ClientTableViewCell.swift */; };
 		63624ED9296BC7D1002DB470 /* TitleModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63624ED8296BC7D1002DB470 /* TitleModelMapper.swift */; };
+		63624EDB296BE5B3002DB470 /* ClientInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63624EDA296BE5B3002DB470 /* ClientInfoViewController.swift */; };
 		6364F04929685D3900691690 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364F04829685D3900691690 /* AppDelegate.swift */; };
 		6364F04B29685D3900691690 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364F04A29685D3900691690 /* SceneDelegate.swift */; };
 		6364F04D29685D3900691690 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364F04C29685D3900691690 /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 		63624ED3296BC4E5002DB470 /* TitleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModel.swift; sourceTree = "<group>"; };
 		63624ED5296BC57B002DB470 /* ClientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientTableViewCell.swift; sourceTree = "<group>"; };
 		63624ED8296BC7D1002DB470 /* TitleModelMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModelMapper.swift; sourceTree = "<group>"; };
+		63624EDA296BE5B3002DB470 /* ClientInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientInfoViewController.swift; sourceTree = "<group>"; };
 		6364F04529685D3900691690 /* project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6364F04829685D3900691690 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6364F04A29685D3900691690 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			children = (
 				6364F04C29685D3900691690 /* ViewController.swift */,
 				6364F04E29685D3900691690 /* Main.storyboard */,
+				63624EDA296BE5B3002DB470 /* ClientInfoViewController.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				63624ED4296BC4E5002DB470 /* TitleModel.swift in Sources */,
 				63624ED2296BC47E002DB470 /* ClientInfoModel.swift in Sources */,
 				63624ED6296BC57B002DB470 /* ClientTableViewCell.swift in Sources */,
+				63624EDB296BE5B3002DB470 /* ClientInfoViewController.swift in Sources */,
 				6364F04D29685D3900691690 /* ViewController.swift in Sources */,
 				6364F04929685D3900691690 /* AppDelegate.swift in Sources */,
 				63624ED9296BC7D1002DB470 /* TitleModelMapper.swift in Sources */,

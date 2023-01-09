@@ -7,12 +7,12 @@
 
 import Foundation
 
-struct TitleModel {
-    let titleName: String
-    let descriptionName: String
-}
-
-struct TitleViewModel {
-    let model: TitleModel
-    var canCopy: Bool = false
-}
+//struct TitleModel {
+//    let titleName: String
+//    let descriptionName: String
+//}
+//
+//struct TitleViewModel {
+//    let model: TitleModel
+//    var canCopy: Bool = false
+//}
