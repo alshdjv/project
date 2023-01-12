@@ -120,6 +120,8 @@ final class ClientTableViewCell: UITableViewCell {
     }
 }
 
+// MARK: - Model Mapper
+
 final class TitleModelMapper {
     static func map(for models: [ClientInfo]) -> [TitleViewModel] {
         return models.map { model in
@@ -165,14 +167,15 @@ class ClientInfoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(tableView)
-    }
-    
-    override func viewDidLayoutSubviews() {
-        tableView.frame = view.bounds
+        tableView.snp.makeConstraints { make in
+            make.top.equalTo(self.view.safeAreaLayoutGuide)
+            make.leading.trailing.equalToSuperview()
+            make.bottom.equalTo(self.view.snp.bottom)
+        }
     }
 }
 
-// MARK: - Extensions
+// MARK: - VC Extensions
 
 extension ClientInfoViewController: UITableViewDelegate, UITableViewDataSource {
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -200,7 +203,7 @@ extension ClientInfoViewController: UITableViewDelegate, UITableViewDataSource {
     }
 }
 
-// MARK: - Blur Effect Class
+// MARK: - Blur Effect Class View
 
 class TableViewHeader: UIView {
     
@@ -239,6 +242,8 @@ class TableViewHeader: UIView {
     }
     
     required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        coder.decodeObject(forKey: "title")
+        coder.decodeObject(forKey: "blurBg")
+        super.init(coder: coder)
     }
 }
